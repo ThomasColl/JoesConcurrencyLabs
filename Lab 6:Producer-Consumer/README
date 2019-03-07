@@ -1,0 +1,40 @@
+The README file is a text file that explains what a project is.
+It should contain information on
+
+1. Project Licence
+
+This project is licensed under the Apache License - see the LICENSE.md file for details.
+
+
+2. Authors of Project
+
+Authored by Thomas Coll (C00204384).
+
+Supervised by Joseph Kehoe.
+
+3. How to install project
+
+To run user must use Linux. Enter into the directory via terminal and run ./a.out in order to run file
+
+4. List of any required Libraries, platform issues, etc.
+
+No libraries are necessary to run this file though running on non linux operating systems could result in issues. 
+
+5. TO DO section listing items that need to be completed (errors, missing features etc.)
+
+
+6. List of files and what they contain
+
+Files:
+	Doxyfile - Producer of documentation for file
+	Event.cpp - Implementation of Event.h. Produces a randomly generated character and consumes it 			(-32ing it)
+	Event.h - Header file for Event.cpp
+	LICENSE.md - Holds Apache License
+	main.cpp - Main running file. Runs several threads as producers and consumers
+	Makefile - used to compile project via emacs
+	README - You're reading it
+	SafeBuffer.cpp - Implements SafeBuffer.h. Allows user to safely push and pop events from a vector
+	SafeBuffer.h - Header file for SafeBuffer.cpp
+	Semaphore.cpp - Implentation of Semaphore.h, implement usable Semaphore class.
+
+7. Any other relevent information

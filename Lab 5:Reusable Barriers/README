@@ -1,0 +1,7 @@
+In this README I will outline how the main.cpp functions
+
+The code begins by creating a large thread pool.
+
+Then the code launches these threads into a method called barrierTask which prints out the letter A plus whatever value i is at that moment. It then uses the barrier to hold all threads until they all catch up. It then releases the threads to print out the letter B followed by the value of i again. This runs until the number of threads is done. 
+
+
